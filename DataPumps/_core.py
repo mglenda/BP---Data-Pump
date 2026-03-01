@@ -6,5 +6,7 @@ class RouteDefinition:
     table: str
     schema: str
 
-class PumpDefinition:
-    route: RouteDefinition
+class Route_WorldBankDefault(RouteDefinition):
+    pk_columns = ["country_iso","year"]
+    table: str = "fact_country_year_indicators"
+    schema: str = "public"
