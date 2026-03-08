@@ -28,3 +28,7 @@ class Constants:
         ,'CHE'
     ]
     default_daterange: str = "1991:2024"
+
+class CorrelationTypes:
+    pearson:str = "pearson"
+    spearman:str = "spearman"

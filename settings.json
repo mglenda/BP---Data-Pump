@@ -1,0 +1,47 @@
+[
+    {
+        "indicator": "NY.GDP.MKTP.KD"
+        ,"column_name":"gdp_per_country"
+    }
+    ,{
+        "indicator": "NY.GDP.MKTP.KD.ZG"
+        ,"column_name":"gdp_growth"
+    }
+    ,{
+        "indicator": "SP.POP.TOTL"
+        ,"column_name":"population"
+    }
+    ,{
+        "indicator": "SP.URB.TOTL.IN.ZS"
+        ,"column_name":"urbanisation"
+    }
+    ,{
+        "indicator": "EN.ATM.CO2E.PC"
+        ,"column_name":"co_per_capita"
+        ,"source": 75
+    }
+    ,{
+        "indicator": "SH.XPD.CHEX.GD.ZS"
+        ,"column_name":"healthcare_spendings_gdp_ratio"
+    }
+    ,{
+        "indicator": "SL.UEM.TOTL.ZS"
+        ,"column_name":"unemployment"
+    }
+    ,{
+        "indicator": "SL.IND.EMPL.ZS"
+        ,"column_name":"employment_industry"
+    }
+    ,{
+        "indicator": "EG.USE.PCAP.KG.OE"
+        ,"column_name":"energy_consumption_per_capita"
+    }
+    ,{
+        "indicator": "FP.CPI.TOTL.ZG"
+        ,"column_name":"inflation"
+    }
+    ,{
+        "indicator": "NY.GDP.PCAP.KD"
+        ,"column_name":"gdp_per_capita"
+    }
+]
