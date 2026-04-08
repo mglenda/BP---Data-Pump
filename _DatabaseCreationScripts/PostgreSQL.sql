@@ -113,3 +113,31 @@ CREATE OR REPLACE TRIGGER trg_set_indicator_correlation_derived_fields
     ON public.fact_indicator_correlations
     FOR EACH ROW
     EXECUTE FUNCTION public.trg_set_indicator_correlation_derived_fields();
+
+INSERT INTO public.country_region (region_name, country_iso) 
+VALUES
+('east', 'SVK'),
+('east', 'CZE'),
+('east', 'SVN'),
+('east', 'HUN'),
+('east', 'HRV'),
+('east', 'POL'),
+('east', 'BGR'),
+('east', 'LTU'),
+('east', 'LVA'),
+('north', 'SWE'),
+('north', 'NOR'),
+('north', 'DNK'),
+('north', 'FIN'),
+('west', 'AUT'),
+('west', 'BEL'),
+('west', 'NLD'),
+('west', 'DEU'),
+('west', 'CHE'),
+('west', 'IRL'),
+('west', 'GBR'),
+('west', 'FRA'),
+('south', 'ITA'),
+('south', 'GRC'),
+('south', 'HRV'),
+('south', 'SVN');
