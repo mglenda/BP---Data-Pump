@@ -2,46 +2,82 @@
     {
         "indicator": "NY.GDP.MKTP.KD"
         ,"column_name":"gdp_per_country"
+        ,"description":"GDP per country"
     }
     ,{
         "indicator": "NY.GDP.MKTP.KD.ZG"
         ,"column_name":"gdp_growth"
+        ,"description":"GDP growth"
     }
     ,{
         "indicator": "SP.POP.TOTL"
         ,"column_name":"population"
+        ,"description":"Population"
     }
     ,{
         "indicator": "SP.URB.TOTL.IN.ZS"
         ,"column_name":"urbanisation"
+        ,"description":"Urbanisation"
     }
     ,{
         "indicator": "EN.ATM.CO2E.PC"
         ,"column_name":"co_per_capita"
+        ,"description":"CO per capita"
         ,"source": 75
     }
     ,{
         "indicator": "SH.XPD.CHEX.GD.ZS"
         ,"column_name":"healthcare_spendings_gdp_ratio"
+        ,"description":"Healthcare spendings / GDP"
     }
     ,{
         "indicator": "SL.UEM.TOTL.ZS"
         ,"column_name":"unemployment"
+        ,"description":"Unemployment"
     }
     ,{
         "indicator": "SL.IND.EMPL.ZS"
         ,"column_name":"employment_industry"
+        ,"description":"Employment in industry"
     }
     ,{
         "indicator": "EG.USE.PCAP.KG.OE"
         ,"column_name":"energy_consumption_per_capita"
+        ,"description":"Energy consumption per capita"
     }
     ,{
         "indicator": "FP.CPI.TOTL.ZG"
         ,"column_name":"inflation"
+        ,"description":"Inflation"
     }
     ,{
         "indicator": "NY.GDP.PCAP.KD"
         ,"column_name":"gdp_per_capita"
+        ,"description":"GDP per capita"
+    }
+    ,{
+        "indicator": "SP.DYN.LE00.IN"
+        ,"column_name":"life_expectancy"
+        ,"description":"Life expectancy"
+    }
+    ,{
+        "indicator": "BX.KLT.DINV.WD.GD.ZS"
+        ,"column_name":"fdi_net_inflows_gdp_ratio"
+        ,"description":"FDI net inflows / GDP"
+    }
+    ,{
+        "indicator": "EG.ELC.RNEW.ZS"
+        ,"column_name":"renewable_electricity_output_ratio"
+        ,"description":"Renewable electricity output ratio"
+    }
+    ,{
+        "indicator": "NV.IND.MANF.ZS"
+        ,"column_name":"manufacturing_value_added_gdp_ratio"
+        ,"description":"Manufacturing value added / GDP"
+    }
+    ,{
+        "indicator": "SL.TLF.CACT.ZS"
+        ,"column_name":"labor_force_participation"
+        ,"description":"Labor force participation"
     }
 ]

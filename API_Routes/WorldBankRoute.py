@@ -1,6 +1,5 @@
-from ._core import API_Route
+from .API_Route import API_Route,DataFrame
 import requests
-from pandas import DataFrame
 import time
 
 class WorldBankRoute(API_Route):
@@ -9,7 +8,7 @@ class WorldBankRoute(API_Route):
     _daterange: str
     _source: int
 
-    def __init__(self, indicator: str, daterange: str, country_codes: str, source: int = None):
+    def __init__(self, indicator: str, daterange: str, country_codes: list[str], source: int = None):
         self._countries = ";".join(country_codes)
         self._indicator = indicator
         self._daterange = daterange

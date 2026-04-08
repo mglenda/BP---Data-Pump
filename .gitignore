@@ -2,6 +2,7 @@
 .venv/
 venv/
 env/
+Thesis/
 
 # Python cache
 __pycache__/
@@ -26,3 +27,8 @@ Thumbs.db
 
 #Develepoment Cofing
 config.ini
+
+prompt.md
+analysis.md
+
+*.cmd

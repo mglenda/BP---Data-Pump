@@ -62,7 +62,7 @@ class CorrelationMetrics:
 
         return DataFrame(rows)
     
-class CorellationMethods:
+class CorrelationMethods:
 
     @staticmethod
     def get_global_correlations(indicator_cols: str) -> DataFrame:
@@ -111,4 +111,3 @@ class CorellationMethods:
                                                                        ,method=CorrelationTypes.spearman
                                                                        ))
         return concat(result_data, ignore_index=True)
-        

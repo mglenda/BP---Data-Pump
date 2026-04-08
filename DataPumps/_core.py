@@ -22,3 +22,25 @@ class Route_CorrelationIndicators(RouteDefinition):
     pk_columns = ['scope_type', 'scope_value', 'method', 'variable_x', 'variable_y']
     table:str = "fact_indicator_correlations"
     schema:str = "public"
+
+class Route_CorrelationExplorer(RouteDefinition):
+    query: str = """SELECT
+                        c.scope_type,
+                        c.scope_value,
+                        c.method,
+                        c.variable_x,
+                        c.variable_y,
+                        c.correlation_value,
+                        c.abs_correlation_value,
+                        c.strength_label,
+                        c.direction,
+                        c.p_value,
+                        c.observation_count,
+                        c.calculated_at
+                    FROM public.fact_indicator_correlations c"""
+
+class Route_CountryRegionLookup(RouteDefinition):
+    query: str = """SELECT
+                        cr.country_iso,
+                        cr.region_name
+                    FROM public.country_region cr"""

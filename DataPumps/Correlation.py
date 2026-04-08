@@ -9,7 +9,7 @@ LOG = logging.getLogger(__name__)
 class CorrelationPump():
 
     @staticmethod
-    def load_data(data: DataFrame):
+    def store_data(data: DataFrame):
         rc: int = 0
         with DatabaseRoute(engine_type=PostgreSQL,definition=Route_CorrelationIndicators) as dr:
             rc = dr.merge_data(data)
