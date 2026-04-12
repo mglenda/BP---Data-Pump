@@ -30,3 +30,4 @@ class WorldBankDataPump():
             rc = dr.merge_data(data)
 
         LOG.info(f"Data loaded [row_count]: {rc}, [indicators]: {indicator}")
+        print(f"Data loaded [row_count]: {rc}, [indicators]: {indicator}")

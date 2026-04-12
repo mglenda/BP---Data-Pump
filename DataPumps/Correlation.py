@@ -15,3 +15,4 @@ class CorrelationPump():
             rc = dr.merge_data(data)
 
         LOG.info(f"Correlation data stored [row_count]: {rc}")
+        print(f"Correlation data stored [row_count]: {rc}")

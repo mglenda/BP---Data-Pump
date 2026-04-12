@@ -59,6 +59,7 @@ class CorrelationMetrics:
                 print(f"Skipping {var1} vs {var2}: {e}")
 
         LOG.info(f"Correlation calculation [scope_type]: {scope_type}, [scope_value]: {scope_value}, [method]: {method}, [row_count]: {len(rows)}")
+        print(f"Correlation calculation [scope_type]: {scope_type}, [scope_value]: {scope_value}, [method]: {method}, [row_count]: {len(rows)}")
 
         return DataFrame(rows)
     
